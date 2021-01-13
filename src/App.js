@@ -3,8 +3,16 @@ import './App.css';
 import { Navbar, NavbarBrand } from 'reactstrap';
 import Menu from './MenuComponent';
 import logo from './assets/images/logo.svg';
+import { DISHES } from './dishes';
 
 class App extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      dishes: DISHES
+    };
+  }
+
   render() {
     return (
       <div className="App">
@@ -13,8 +21,7 @@ class App extends Component {
             <NavbarBrand href="/">Ristorante Con Fusion?</NavbarBrand>
           </div>
         </Navbar>
-        <Menu />
-        <img src={logo} className="App-logo" alt="logo" />
+        <Menu dishes={this.state.dishes} />
       </div>
     );
   }
