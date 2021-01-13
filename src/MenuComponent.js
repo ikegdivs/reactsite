@@ -2,6 +2,9 @@ import React, { Component } from 'react';
 import { Media } from 'reactstrap';
 //import logo from '../assets/images/logo.svg';
 import image0 from './assets/images/jQuery_hasClass.JPG';
+import image1 from './assets/images/jQuery_css.JPG';
+import image2 from './assets/images/jQuery_removeAttr.JPG';
+import image3 from './assets/images/jQuery_fadeto.JPG';
 
 class Menu extends Component {
     constructor(props) {
@@ -19,7 +22,7 @@ class Menu extends Component {
                {
                   id: 1,
                   name:'Zucchipakoda',
-                  image: 'assets/images/zucchipakoda.png',
+                  image: image1,
                   category: 'appetizer',
                   label:'',
                   price:'1.99',
@@ -27,7 +30,7 @@ class Menu extends Component {
                {
                   id: 2,
                   name:'Vadonut',
-                  image: 'assets/images/vadonut.png',
+                  image: image2,
                   category: 'appetizer',
                   label:'New',
                   price:'1.99',
@@ -35,7 +38,7 @@ class Menu extends Component {
                {
                   id: 3,
                   name:'ElaiCheese Cake',
-                  image: 'assets/images/elaicheesecake.png',
+                  image: image3,
                   category: 'dessert',
                   label:'',
                   price:'2.99',
