@@ -10,7 +10,7 @@ class Menu extends Component {
                 {
                   id: 0,
                   name:'Uthappizza',
-                  image: logo,
+                  image: 'assets/images/zucchipakoda.png',
                   category: 'mains',
                   label:'Hot',
                   price:'4.99',
