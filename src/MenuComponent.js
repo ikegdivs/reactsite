@@ -9,22 +9,22 @@ class Menu extends Component {
         super(props);
 
         this.state = {
-            selectedDish: null
+            selectedTopic: null
         }
     }
 
-    onDishSelect(dish) {
-        this.setState({ selectedDish: dish});
+    onTopicSelect(topic) {
+        this.setState({ selectedTopic: topic});
     }
 
-    renderDish(dish) {
-        if (dish != null)
+    renderTopic(topic) {
+        if (topic != null)
             return(
                 <Card>
-                    <CardImg top src={dish.image} alt={dish.name} />
+                    <CardImg top src={topic.image} alt={topic.name} />
                     <CardBody>
-                      <CardTitle>{dish.name}</CardTitle>
-                      <CardText>{dish.description}</CardText>
+                      <CardTitle>{topic.name}</CardTitle>
+                      <CardText>{topic.description}</CardText>
                     </CardBody>
                 </Card>
             );
@@ -35,14 +35,14 @@ class Menu extends Component {
     }
 
     render() {
-        const menu = this.props.dishes.map((dish) => {
+        const menu = this.props.topics.map((topic) => {
             return (
               <div  className="col-12 col-md-5 m-1">
-                <Card key={dish.id}
-                  onClick={() => this.onDishSelect(dish)}>
-                  <CardImg width="100%" src={dish.image} alt={dish.name} />
+                <Card key={topic.id}
+                  onClick={() => this.onTopicSelect(topic)}>
+                  <CardImg width="100%" src={topic.image} alt={topic.name} />
                   <CardImgOverlay>
-                      <CardTitle>{dish.name}</CardTitle>
+                      <CardTitle>{topic.name}</CardTitle>
                   </CardImgOverlay>
                 </Card>
               </div>
@@ -56,7 +56,7 @@ class Menu extends Component {
                 </div>
                 <div className="row">
                   <div  className="col-12 col-md-5 m-1">
-                    {this.renderDish(this.state.selectedDish)}
+                    {this.renderTopic(this.state.selectedTopic)}
                   </div>
                 </div>
             </div>
