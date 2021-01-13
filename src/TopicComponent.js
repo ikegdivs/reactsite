@@ -4,7 +4,7 @@ import { Media } from 'reactstrap';
 import { Card, CardImg, CardImgOverlay, CardText, CardBody,
   CardTitle } from 'reactstrap';
 
-class Menu extends Component {
+class Topics extends Component {
     constructor(props) {
         super(props);
 
@@ -35,7 +35,7 @@ class Menu extends Component {
     }
 
     render() {
-        const menu = this.props.topics.map((topic) => {
+        const topicsSet = this.props.topics.map((topic) => {
             return (
               <div  className="col-12 col-md-5 m-1">
                 <Card key={topic.id}
@@ -52,7 +52,7 @@ class Menu extends Component {
         return (
             <div className="container">
                 <div className="row">
-                    {menu}
+                    {topicsSet}
                 </div>
                 <div className="row">
                   <div  className="col-12 col-md-5 m-1">
@@ -64,4 +64,4 @@ class Menu extends Component {
     }
 }
 
-export default Menu;
+export default Topics;
