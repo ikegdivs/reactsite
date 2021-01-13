@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Media } from 'reactstrap';
-import logo from '../assets/images/logo.svg';
+//import logo from '../assets/images/logo.svg';
+import image0 from './assets/images/jQuery_hasClass.JPG';
 
 class Menu extends Component {
     constructor(props) {
@@ -10,7 +11,7 @@ class Menu extends Component {
                 {
                   id: 0,
                   name:'Uthappizza',
-                  image: 'assets/images/zucchipakoda.png',
+                  image: image0,
                   category: 'mains',
                   label:'Hot',
                   price:'4.99',
