@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/reactsite/static/css/main.84860948.chunk.css",
-    "main.js": "/reactsite/static/js/main.5aa46e61.chunk.js",
-    "main.js.map": "/reactsite/static/js/main.5aa46e61.chunk.js.map",
+    "main.js": "/reactsite/static/js/main.a36fc746.chunk.js",
+    "main.js.map": "/reactsite/static/js/main.a36fc746.chunk.js.map",
     "runtime-main.js": "/reactsite/static/js/runtime-main.1586d94d.js",
     "runtime-main.js.map": "/reactsite/static/js/runtime-main.1586d94d.js.map",
     "static/css/2.8757ddda.chunk.css": "/reactsite/static/css/2.8757ddda.chunk.css",
@@ -17,14 +17,13 @@
     "static/media/jQuery_css.74459012.JPG": "/reactsite/static/media/jQuery_css.74459012.JPG",
     "static/media/jQuery_fadeto.6a0e4489.JPG": "/reactsite/static/media/jQuery_fadeto.6a0e4489.JPG",
     "static/media/jQuery_hasClass.c85b6dcd.JPG": "/reactsite/static/media/jQuery_hasClass.c85b6dcd.JPG",
-    "static/media/jQuery_removeAttr.41b8bc1d.JPG": "/reactsite/static/media/jQuery_removeAttr.41b8bc1d.JPG",
-    "static/media/logo.6ce24c58.svg": "/reactsite/static/media/logo.6ce24c58.svg"
+    "static/media/jQuery_removeAttr.41b8bc1d.JPG": "/reactsite/static/media/jQuery_removeAttr.41b8bc1d.JPG"
   },
   "entrypoints": [
     "static/js/runtime-main.1586d94d.js",
     "static/css/2.8757ddda.chunk.css",
     "static/js/2.f5fbe544.chunk.js",
     "static/css/main.84860948.chunk.css",
-    "static/js/main.5aa46e61.chunk.js"
+    "static/js/main.a36fc746.chunk.js"
   ]
 }
