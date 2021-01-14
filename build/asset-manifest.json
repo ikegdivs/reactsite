@@ -1,29 +1,29 @@
 {
   "files": {
     "main.css": "/reactsite/static/css/main.84860948.chunk.css",
-    "main.js": "/reactsite/static/js/main.9816621b.chunk.js",
-    "main.js.map": "/reactsite/static/js/main.9816621b.chunk.js.map",
-    "runtime-main.js": "/reactsite/static/js/runtime-main.1586d94d.js",
-    "runtime-main.js.map": "/reactsite/static/js/runtime-main.1586d94d.js.map",
+    "main.js": "/reactsite/static/js/main.3ea7e819.chunk.js",
+    "main.js.map": "/reactsite/static/js/main.3ea7e819.chunk.js.map",
+    "runtime-main.js": "/reactsite/static/js/runtime-main.82571b91.js",
+    "runtime-main.js.map": "/reactsite/static/js/runtime-main.82571b91.js.map",
     "static/css/2.8757ddda.chunk.css": "/reactsite/static/css/2.8757ddda.chunk.css",
-    "static/js/2.f5fbe544.chunk.js": "/reactsite/static/js/2.f5fbe544.chunk.js",
-    "static/js/2.f5fbe544.chunk.js.map": "/reactsite/static/js/2.f5fbe544.chunk.js.map",
-    "static/js/3.d6160ee8.chunk.js": "/reactsite/static/js/3.d6160ee8.chunk.js",
-    "static/js/3.d6160ee8.chunk.js.map": "/reactsite/static/js/3.d6160ee8.chunk.js.map",
+    "static/js/2.93796d41.chunk.js": "/reactsite/static/js/2.93796d41.chunk.js",
+    "static/js/2.93796d41.chunk.js.map": "/reactsite/static/js/2.93796d41.chunk.js.map",
+    "static/js/3.f91c6d7a.chunk.js": "/reactsite/static/js/3.f91c6d7a.chunk.js",
+    "static/js/3.f91c6d7a.chunk.js.map": "/reactsite/static/js/3.f91c6d7a.chunk.js.map",
     "index.html": "/reactsite/index.html",
     "static/css/2.8757ddda.chunk.css.map": "/reactsite/static/css/2.8757ddda.chunk.css.map",
     "static/css/main.84860948.chunk.css.map": "/reactsite/static/css/main.84860948.chunk.css.map",
-    "static/js/2.f5fbe544.chunk.js.LICENSE.txt": "/reactsite/static/js/2.f5fbe544.chunk.js.LICENSE.txt",
+    "static/js/2.93796d41.chunk.js.LICENSE.txt": "/reactsite/static/js/2.93796d41.chunk.js.LICENSE.txt",
     "static/media/jQuery_css.74459012.JPG": "/reactsite/static/media/jQuery_css.74459012.JPG",
     "static/media/jQuery_fadeto.6a0e4489.JPG": "/reactsite/static/media/jQuery_fadeto.6a0e4489.JPG",
     "static/media/jQuery_hasClass.c85b6dcd.JPG": "/reactsite/static/media/jQuery_hasClass.c85b6dcd.JPG",
     "static/media/jQuery_removeAttr.41b8bc1d.JPG": "/reactsite/static/media/jQuery_removeAttr.41b8bc1d.JPG"
   },
   "entrypoints": [
-    "static/js/runtime-main.1586d94d.js",
+    "static/js/runtime-main.82571b91.js",
     "static/css/2.8757ddda.chunk.css",
-    "static/js/2.f5fbe544.chunk.js",
+    "static/js/2.93796d41.chunk.js",
     "static/css/main.84860948.chunk.css",
-    "static/js/main.9816621b.chunk.js"
+    "static/js/main.3ea7e819.chunk.js"
   ]
 }
