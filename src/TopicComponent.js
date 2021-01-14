@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import { Media } from 'reactstrap';
-//import logo from '../assets/images/logo.svg';
 import { Card, CardImg, CardImgOverlay, CardText, CardBody,
   CardTitle } from 'reactstrap';
 
